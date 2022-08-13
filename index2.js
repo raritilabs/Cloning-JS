@@ -1,4 +1,4 @@
-//promise
+
 
 setTimeout( () => {
     console.log("Hey you");
