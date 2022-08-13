@@ -19,8 +19,13 @@ test.hobbies[0] = "Reading"
 console.log(test.hobbies)
 console.log(parse.hobbies)
 //deep cloning using structured clone
-const data = { name: "Nasheeda", age: 21, hobbies: ["Reading", "Playing"]  }
-const dataCopy = structuredClone(data)
-data.hobbies[0] = "Singing"
-console.log(data)
-console.log(dataCopy)
+
+//this operator
+let student = {
+    Name: "Juhaina",
+    Adddress: "Calicut",
+    id: 5566,
+      console.log(this.Name + " " + this.Adddress);
+
+  };
+ 
