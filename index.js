@@ -18,3 +18,9 @@ const parse = JSON.parse(JSON.stringify(test))
 test.hobbies[0] = "Reading"
 console.log(test.hobbies)
 console.log(parse.hobbies)
+//deep cloning using structured clone
+const data = { name: "Nasheeda", age: 21, hobbies: ["Reading", "Playing"]  }
+const dataCopy = structuredClone(data)
+data.hobbies[0] = "Singing"
+console.log(data)
+console.log(dataCopy)
