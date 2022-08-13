@@ -38,3 +38,4 @@ const dataCopy4 = JSON.parse(JSON.stringify(data4));
 data4.hobbies[1] = "Cycling";
 console.log(data4.hobbies);
 console.log(dataCopy4.hobbies);
+
