@@ -1,3 +1,4 @@
+//Clone in JavaSrcipt
 //Clone an object in JavaScript
 //Using spread operator-shallow copy
 
@@ -39,3 +40,12 @@ data4.hobbies[1] = "Cycling";
 console.log(data4.hobbies);
 console.log(dataCopy4.hobbies);
 
+//Clone an array in JavaScript
+//Using Spread operator
+
+const numbers = [0,2,4,[1, 3, 5]];
+const testNum = { ...numbers };
+numbers[3][0]= 10;
+numbers[2]=8;
+console.log(testNum);
+console.log(numbers);
