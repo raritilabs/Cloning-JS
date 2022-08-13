@@ -34,7 +34,7 @@ let info = {
   //using of apply function
   const person1 = {
     name:"John",
-    age: 2
+    age: 3
   }
   
 let result2=info.Details.apply(person1);
